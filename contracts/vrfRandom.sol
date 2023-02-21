@@ -26,9 +26,7 @@ contract vrfRanGenerator is VRFConsumerBaseV2, ConfirmedOwner {
     uint256[] public requestIds;
     uint256 public lastRequestId;
 
-    // The gas lane to use, which specifies the maximum gas price to bump to.
-    // For a list of available gas lanes on each network,
-    // see https://docs.chain.link/docs/vrf/v2/subscription/supported-networks/#configurations
+   
     bytes32 keyHash =
         0x79d3d8832d904592c0bf9818b621522c988bb8b0c05cdc3b15aea1b6e8db0c15;
 
